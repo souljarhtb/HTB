@@ -1,6 +1,6 @@
----- SSL decryptio -------------------
---- used in Marshall in the middle ---
-.pem file could be used to decrypt SSL traffic in Wireshark for e.g. 
+---- SSL decryption -------------------
+--- used in Forensic Marshall ---
+.pem file could be used to decrypt SSL traffic in Wireshark for e.g.
 Wireshark -> Edit -> Preferences -> Protocols -> SSL - Edit RSA keys
 only private key part should be in the file.
 additionaly secret keys could be added at the same place
