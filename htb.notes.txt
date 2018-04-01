@@ -1,0 +1,14 @@
+---- SSL decryptio -------------------
+--- used in Marshall in the middle ---
+.pem file could be used to decrypt SSL traffic in Wireshark for e.g. 
+Wireshark -> Edit -> Preferences -> Protocols -> SSL - Edit RSA keys
+only private key part should be in the file.
+additionaly secret keys could be added at the same place
+
+Always look for largest to smallest stream in Wireshark when searching for data leak.
+---
+
+binwalk, steghide, exiftool used in Stego challenges
+
+
+---
