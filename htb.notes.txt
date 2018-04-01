@@ -12,3 +12,5 @@ binwalk, steghide, exiftool used in Stego challenges
 
 
 ---
+
+wfuzz - web bruteforcer
