@@ -7,6 +7,15 @@ additionaly secret keys could be added at the same place
 
 Always look for largest to smallest stream in Wireshark when searching for data leak.
 ---
+volatility -f file.elf --profile=Win.. filedump -p 496 -n -D out/
+                                        memdump -p 496 -D out/     
+where -p is a process ID and -n adds original filename to extracted file. out/ - output directory
+
+volatility -f file.elf --profile=Win.. pslist/pstree
+volatility -f file.elf --info
+
+----
+
 
 binwalk, steghide, exiftool used in Stego challenges
 
